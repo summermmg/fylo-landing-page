@@ -1,0 +1,56 @@
+.hero {
+    a {
+        text-decoration: none;
+    }
+    nav {
+        padding: 30px 0;
+        display: flex;
+        justify-content: space-between;
+        ul {
+            display: flex;
+            li {
+                padding: 0 15px;
+                list-style: none;
+                a {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+    
+    .logo {
+        background: url('/images/logo.svg') no-repeat;
+        height:50px;
+        width: 166px;
+    } 
+
+    &-content {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        h1 {
+            font-weight: 700;
+        }
+        img {
+            width: 50%;
+        }
+        & >:first-child {
+            padding-right: 60px;
+            div {
+                display: flex;
+                justify-content: space-between;
+                input {
+                    flex-grow: 1;
+                }
+                a {
+                    margin: 0 5rem 0 0.5rem;
+                }
+            }
+        }
+        p {
+            margin: 20px 0;
+        }
+    }  
+}
+

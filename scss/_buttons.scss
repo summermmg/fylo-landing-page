@@ -1,0 +1,15 @@
+// Define button common styles
+%btn {
+    display: inline-block;
+    padding: 3px 20px;
+    margin: 3px;
+    &:hover {
+        transform: scale(0.95);
+    }
+}
+
+.btn-primary {
+    @extend %btn;
+    background-color: $accent-primary;
+    color: $neutral-primary;
+}

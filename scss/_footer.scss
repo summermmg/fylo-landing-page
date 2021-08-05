@@ -1,0 +1,22 @@
+.logo {
+    background: url('/images/logo.svg') no-repeat;
+    height:50px;
+    width: 166px;  
+} 
+
+footer {
+    background: $primary-color;
+    color: $neutral-secondary;
+    .links {
+        margin-top: 1rem;
+        display: flex;
+    }
+    .contact {
+        margin-right: 5rem;
+    }
+    ul {
+        li {
+            list-style: none;
+        }
+    }
+}

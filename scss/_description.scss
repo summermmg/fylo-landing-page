@@ -1,0 +1,66 @@
+.description {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    h1 {
+        font-weight: 700;
+    }
+    img {
+        width: 50%;
+        position: relative;
+        top: -3rem;
+    }
+    & >:first-child {
+        padding-right: 60px;
+    }
+    a {
+        color: $accent-secondary;
+    }
+    .icon_arrow {
+        display: inline-block;
+        background-image: url('/images/icon-arrow.svg');
+        width: 16px;
+        height: 16px;
+    }
+    .quote_card {
+        background: #fff;
+        width: 70%;
+        padding: 35px;
+        font-size: 0.9rem;
+        border-radius: 10px;
+        line-height: 1rem;
+        .icon_quotes {
+            background-image: url('/images/icon-quotes.svg');
+            width: 13px;
+            height: 12px;
+        }
+        & > p {
+            line-height: 1.5rem;
+        }
+        .quote_author {
+            display: flex;
+            & >:last-child {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+            }
+            p strong {
+                font-weight: 700;
+            }
+        }
+        .avatar {
+            background-image: url('/images/avatar-testimonial.jpg');
+            background-size: 100% 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            align-self: center;
+        }
+
+
+    }
+}
